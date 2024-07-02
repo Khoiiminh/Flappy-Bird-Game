@@ -78,16 +78,16 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         //load images
 
         //.getImage() 'cause the image is .png file not string
-        backgroundImg = new ImageIcon(getClass().getResource("D:\\KhoiMinh\\OOP\\OOP_Project\\ImageResource\\flappybirdbg.png")).getImage();
+        backgroundImg = new ImageIcon(getClass().getResource("Image_URL")).getImage();
         /*  -getClass().getResource("./flappybirdbg.png"): This part retrieves the URL of the resource named 
         "flappybirdbg.png" that is located in the same directory as the class file (or relative to the classpath if 
         the resources are packaged with the application).
             -new ImageIcon(...).getImage(): This part creates a new ImageIcon object using the URL obtained in the 
         previous step, and then calls getImage() to extract the Image object from the ImageIcon. */
 
-        birdImg = new ImageIcon(getClass().getResource("D:\\KhoiMinh\\OOP\\OOP_Project\\ImageResource\\flappybird.png")).getImage();
-        topPipeImg = new ImageIcon(getClass().getResource("D:\\KhoiMinh\\OOP\\OOP_Project\\ImageResource\\toppipe.png")).getImage();
-        bottomPipeImg = new ImageIcon(getClass().getResource("D:\\KhoiMinh\\OOP\\OOP_Project\\ImageResource\\bottompipe.png")).getImage();
+        birdImg = new ImageIcon(getClass().getResource("Image_URL")).getImage();
+        topPipeImg = new ImageIcon(getClass().getResource("Image_URL")).getImage();
+        bottomPipeImg = new ImageIcon(getClass().getResource("Image_URL")).getImage();
 
         //Bird
         bird = new Bird(birdImg);
