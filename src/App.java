@@ -6,7 +6,7 @@ public class App {
         // mention of the window in pixel
         int boardWidth = 360;
         int boardHeight = 640;
-        ImageIcon logo = new ImageIcon("C:\\Users\\Admin\\OneDrive\\Máy tính\\Flappy Bird\\src\\resouces\\flappybird.png");
+        ImageIcon logo = new ImageIcon("Image_URL");
 
         JFrame frame = new JFrame("Flappy Bird");
         frame.setSize(boardWidth, boardHeight);
